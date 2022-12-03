@@ -1,0 +1,540 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	
+}
+
+body {
+	font-family: 'Bai Jamjuree', sans-serif;
+	background-image: url(images/bg-header-desktop.png);
+	background-repeat: no-repeat;
+}
+
+header {
+	width: 50%;
+	margin: 100px auto;
+	padding: 200px 0 0 0;
+	background-image: url(images/logo.svg);
+	background-repeat: no-repeat;
+	background-position: 300px 0px;
+}
+
+header h1 {
+	color: hsl(210, 10%, 33%);
+	font-size: 2.5em;
+	text-align: center;
+	font-weight: 400;
+}
+
+header p {
+	color: hsl(201, 11%, 66%);
+	text-align: center;
+	padding: 20px 70px;
+}
+
+.button1 {
+	margin: 40px auto;
+	text-align: center;
+}
+
+.IOS1 {
+	border: none;
+	background-color: hsl(171, 66%, 44%);
+	border-radius: 100px;
+	color: white;
+	padding: 15px 35px;
+	margin: 0 10px;
+	font-weight: 600;
+	box-shadow: 0px 3px 0px hsl(171, 66%, 40%);
+	letter-spacing: 0.1em;
+	cursor: pointer;
+
+}
+
+.IOS1:hover {
+	opacity: 0.7;
+}
+
+.IOS1 a {
+	text-decoration: none;
+	color: white;
+}
+
+.Mac1 {
+	border: none;
+	background-color: hsl(233, 100%, 69%);
+	border-radius: 100px;
+	color: white;
+	padding: 15px 35px;
+	margin: 0 10px;
+	font-weight: 400;
+	box-shadow: 0px 3px 0px hsl(233, 100%, 60%);
+	letter-spacing: 0.1em;
+	cursor: pointer;
+}
+
+.Mac1:hover {
+	opacity: 0.7;
+}
+
+.Mac1 a {
+	text-decoration: none;
+	color: white;
+}
+
+.snippets {
+	width: 50%;
+	margin: 100px auto;
+}
+
+.snippets h2 {
+	color: hsl(210, 10%, 33%);
+	font-size: 1.5em;
+	text-align: center;
+	font-weight: 400;
+}
+
+.snippets p {
+	color: hsl(201, 11%, 66%);
+	text-align: center;
+	padding: 20px 70px;
+}
+
+.computer {
+	display: flex;
+	width: 100%;
+	margin: 100px auto;
+}
+
+.computer img {
+	width: 600px;
+	padding: 0 100px;
+}
+
+.descriptif {
+	width: 25%;
+	margin: 20px 20px;
+
+}
+
+.details1, .details2, .details3 {
+	margin: 20px 0px;
+}
+
+.descriptif p {
+	color: hsl(201, 11%, 66%);
+	padding: 10px 0;
+}
+
+.descriptif h2 {
+	color: hsl(210, 10%, 33%);
+	font-size: 1.3em;
+	font-weight: 600;
+}
+
+.access-clipboard {
+	width: 50%;
+	margin: 100px auto;
+}
+
+.access-clipboard h2 {
+	color: hsl(210, 10%, 33%);
+	font-size: 1.5em;
+	text-align: center;
+	font-weight: 600;
+}
+
+.access-clipboard p {
+	color: hsl(201, 11%, 66%);
+	text-align: center;
+	padding: 20px 70px;
+}
+
+.access-clipboard img {
+	width: 100%;
+	margin: 50px auto;
+}
+
+.tools {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	width: 70%;
+}
+
+.tools-details1, .tools-details2, .tools-details3 {
+	width: 28%;
+	padding-top: 50px;
+}
+
+.tools-details1 h2, .tools-details2 h2, .tools-details3 h2 {
+	color: hsl(210, 10%, 33%);
+	font-size: 1.2em;
+	font-weight: 600;
+	margin: 10px 0;
+	text-align: center;
+}
+
+.tools-details1 p, .tools-details2 p, .tools-details3 p {
+	color: hsl(201, 11%, 66%);
+	text-align: center;
+	font-size: 0.8em;
+}
+
+.tools-details1 {
+	background-image: url(images/icon-blacklist.svg);
+	background-repeat: no-repeat;
+	background-position: 120px 0;
+}
+
+.tools-details2 {
+	background-image: url(images/icon-text.svg);
+	background-repeat: no-repeat;
+	background-position: 120px 0;
+}
+
+.tools-details3 {
+	background-image: url(images/icon-preview.svg);
+	background-repeat: no-repeat;
+	background-position: 120px 0;
+}
+
+.logo {
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin: 80px auto;
+}
+
+.logo img {
+	width: 120px;
+	height: 35px;
+}
+
+.clipboard-mac {
+	width: 50%;
+	margin: 100px auto;
+}
+
+.clipboard-mac h2 {
+	color: hsl(210, 10%, 33%);
+	font-size: 1.5em;
+	text-align: center;
+	font-weight: 600;
+}
+
+.clipboard-mac p {
+	color: hsl(201, 11%, 66%);
+	text-align: center;
+	padding: 20px 70px;
+}
+
+.button2 {
+	margin: 40px auto;
+	text-align: center;
+}
+
+.IOS2 {
+	border: none;
+	background-color: hsl(171, 66%, 44%);
+	border-radius: 100px;
+	color: white;
+	padding: 15px 35px;
+	margin: 0 10px;
+	font-weight: 600;
+	box-shadow: 0px 3px 0px hsl(171, 66%, 40%);
+	letter-spacing: 0.1em;
+	cursor: pointer;
+}
+
+.IOS2:hover {
+	opacity: 0.7;
+}
+
+.IOS2 a {
+	text-decoration: none;
+	color: white;
+}
+
+.Mac2 {
+	border: none;
+	background-color: hsl(233, 100%, 69%);
+	border-radius: 100px;
+	color: white;
+	padding: 15px 35px;
+	margin: 0 10px;
+	font-weight: 400;
+	box-shadow: 0px 3px 0px hsl(233, 100%, 60%);
+	letter-spacing: 0.1em;
+	cursor: pointer;
+}
+
+.Mac2:hover {
+	opacity: 0.7;
+}
+
+.Mac2 a {
+	text-decoration: none;
+	color: white;
+}
+
+
+footer {
+	background-color: #f5f6f8;
+	background-image: url(images/logo.svg);
+	background-repeat: no-repeat;
+	background-size: 50px;
+	background-position: 120px 45px;
+}
+
+.box-footer {
+	display: flex;
+}
+
+.links {
+	display: flex;
+	justify-content: space-around;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.links a {
+	text-decoration: none;
+	color: hsl(210, 10%, 33%);
+	font-weight: 400;
+}
+
+.links a:hover {
+	color: hsl(171, 66%, 44%);
+}
+
+.links ul {
+	margin: 20px 30px;
+}
+
+.links li {
+	margin: 20px 0;
+}
+
+.RS {
+	margin: 60px 150px 0 0;
+}
+
+.RS i {
+	margin: 0 15px;
+	cursor: pointer;
+	font-size: 30px;
+}
+
+.RS i:hover {
+	color: hsl(171, 66%, 44%);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 400px) {
+	
+	body {
+		background-image: url(images/bg-header-mobile.png);
+		background-repeat: no-repeat;
+	}
+
+	header {
+		width: 80%;
+		background-position: 90px 0;
+	}
+
+	header h1 {
+		font-size: 2em;
+		font-weight: 600;
+	}
+
+	header p {
+	padding: 20px 0px;
+	line-height: 1.8em;
+}
+
+	.button1 {
+		display: flex;
+		flex-direction: column;
+		margin: 20px 0;
+}
+
+	.IOS1 {
+		margin: 10px 0;
+		padding: 20px 40px;
+		font-weight: 600;
+		font-size: 1em;
+	}
+
+	.Mac1 {
+		margin: 10px 0;
+		padding: 20px 40px;
+		font-weight: 600;
+		font-size: 1em;
+	}
+
+
+	.snippets {
+		width: 80%;
+	}
+
+	.snippets h2 {
+		font-weight: 600;
+	}
+
+	.snippets p {
+	padding: 20px 0px;
+	line-height: 1.8em;
+}
+
+	.computer {
+		flex-direction: column;
+		margin: 0 0;
+	}
+
+	.computer img {
+	width: 300px;
+	margin: 0 auto;
+	padding: 0 0;
+}
+
+.descriptif {
+	width: 90%;
+	margin: 20px 20px;
+
+}
+
+.details1, .details2, .details3 {
+	margin: 50px 0px;
+	text-align: center;
+}
+
+.descriptif p {
+	color: hsl(201, 11%, 66%);
+	padding: 10px 0;
+	line-height: 1.8em;
+}
+
+.descriptif h2 {
+	color: hsl(210, 10%, 33%);
+	font-size: 1.5em;
+	font-weight: 600;
+}
+
+
+.access-clipboard {
+	width: 90%;
+	margin: 50px auto;
+}
+
+.access-clipboard h2 {
+	padding: 0 20px;
+	font-size: 2em;
+}
+
+.access-clipboard p {
+	color: hsl(201, 11%, 66%);
+	text-align: center;
+	padding: 20px 20px;
+	line-height: 1.8em;
+}
+
+
+.tools {
+	flex-direction: column;
+	width: 90%;
+}
+
+.tools-details1, .tools-details2, .tools-details3 {
+	width: 80%;
+	padding-top: 50px;
+	margin: 20px auto;
+}
+
+.tools-details1 h2, .tools-details2 h2, .tools-details3 h2 {
+	font-size: 1.5em;
+}
+
+.tools-details1 p, .tools-details2 p, .tools-details3 p {
+	padding: 0 10px;
+	line-height: 1.8em;
+}
+
+.logo {
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 60px auto;
+}
+
+.logo img {
+	margin: 30px auto;
+}
+
+.clipboard-mac {
+	width: 90%;
+	margin: 50px auto;
+}
+
+.clipboard-mac h2 {
+	font-size: 1.8em;
+}
+
+.clipboard-mac p {
+	line-height: 1.8em;
+	padding: 20px 30px;
+
+}
+
+	.IOS2 {
+		margin: 10px 0;
+		padding: 15px 60px;
+		font-weight: 600;
+		font-size: 1em;
+	}
+
+	.Mac2 {
+		margin: 10px 0;
+		padding: 15px 60px;
+		font-weight: 600;
+		font-size: 1em;
+	}
+
+	footer {
+		background-position: 170px 45px;
+	}
+
+	.box-footer {
+		flex-direction: column;
+	}
+
+	.links {
+		flex-direction: column;
+		margin: 100px auto 20px auto;
+		font-size: 1.3em;
+	}
+
+	.links ul {
+	margin: 0px auto;
+	text-align: center;
+}
+
+	.links li {
+	margin: 20px 0;
+}
+
+	.RS {
+		margin: 10px auto 30px auto;
+	}
+
+
